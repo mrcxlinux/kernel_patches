@@ -14,6 +14,7 @@ index 91f56d13..421d516b 100644
 --- a/kernel/apk_sign.c
 +++ b/kernel/apk_sign.c
 @@ -33,6 +33,10 @@ static apk_sign_key_t apk_sign_keys[] = {
+     { EXPECTED_SIZE_WEISHU, EXPECTED_HASH_WEISHU }, // weishu/KernelSU
      { EXPECTED_SIZE_5EC1CFF, EXPECTED_HASH_5EC1CFF }, // 5ec1cff/KernelSU
      { EXPECTED_SIZE_RSUNTK, EXPECTED_HASH_RSUNTK }, // rsuntk/KernelSU
      { EXPECTED_SIZE_SHIRKNEKO, EXPECTED_HASH_SHIRKNEKO }, // SukiSU
